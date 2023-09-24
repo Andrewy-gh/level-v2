@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container-narrow">
   <h2>Context</h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -10,8 +10,8 @@
 </section>
 
 <style>
-  .container {
-    width: min(1280px, 100% - 2rem);
+  .container-narrow {
+    width: min(40ch, 100% - 2rem);
     margin-inline: auto;
     text-align: center;
   }

@@ -8,28 +8,29 @@
 </script>
 
 <main class="flow">
-  <Nav />
-  <Hero />
-  <CallToAction />
-  <Featured />
-  <CallToAction2 />
-  <Footer />
+  <div>
+    <Nav />
+  </div>
+  <div>
+    <Hero />
+  </div>
+  <div>
+    <CallToAction />
+  </div>
+  <div>
+    <Featured />
+  </div>
+  <div>
+    <CallToAction2 />
+  </div>
+  <div>
+    <Footer />
+  </div>
 </main>
-<div class="flow">
-  <div>Item 1</div>
-  <div class="red">Item 2</div>
-  <div class="mt-1">Item 3</div>
-</div>
 
 <style>
   .flow > *:where(:not(:first-child)) {
-    margin-top: 1rem;
+    margin-top: 3rem;
     outline: 1px solid red;
-  }
-  .red {
-    color: red;
-  }
-  .mt-1 {
-    margin-top: 2rem;
   }
 </style>
