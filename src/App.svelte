@@ -31,6 +31,5 @@
 <style>
   .flow > *:where(:not(:first-child)) {
     margin-top: 3rem;
-    outline: 1px solid red;
   }
 </style>
